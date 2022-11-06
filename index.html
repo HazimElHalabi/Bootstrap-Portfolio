@@ -2,22 +2,23 @@
 <html lang="en-gb">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
 
   <title>Hazim ElHalabi - Web Developer</title>
 </head>
 
 <body>
+
+  <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
-    <a class="navbar-brand" href="#"><img src="images/acoustic-guitar.png">Hazim ElHalabi</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,36 +26,35 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#"> |About Me| </a>
+          <a class="nav-link" href="#main">Main<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"> |Work| </a>
+          <a class="nav-link" href="#work">Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"> |CV| </a>
+          <a class="nav-link" href="#about">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-primary btn-lg navCTA" href="#" role="button"> |Contact Me| </a>
+          <a class="btn btn-primary btn-lg navCTA" href="#contact" role="button">Contact Me</a>
         </li>
       </ul>
     </div>
   </nav>
+  <!-- End navigation bar -->
+
   <!-- Jumbotron -->
-  <div class="jumbotron hero-banner">
-    <div class="jumboCopy">
-      <figure>
-        <img id="bio-image" src="./images/Profile Picture.jpg" alt="Hazim ElHalabi">
-      </figure>
-      <h1 class="display-4">Front-end Web Developer</h1>
-      <p class="lead">Rock Nation brings you the most headbanging shows on the planet. Click below to find tickets for
-        your favorite bands</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button"> |See My Work| </a>
+  <div class="jumbotron" id="main">
+    <div class="hero-banner">
+      <img id="bio-image" src="images/Profile Picture.jpg" alt="Hazim ElHalabi">
+      <h1 class="display-5">Hazim ElHalabi</h1>
+      <a class="btn btn-primary btn-lg" href="#work" role="button">See My Work</a>
     </div>
   </div>
   <!-- End jumbotron -->
+
   <!-- Cards -->
-  <div class="container-fluid content">
-    <h2 class="sectionHeading">Work</h2>
+  <div class="container-fluid content" id="work">
+    <h2 class="sectionHeading">Portfolio</h2>
     <div class="row showsNear">
 
       <!-- Card 1 -->
@@ -62,9 +62,8 @@
         <div class="card">
           <img src="images/Project 1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Project 1</h5>
-            <p class="card-text">Marketing Agency Website Refactoring"</p>
-            <a href="https://hazimelhalabi.github.io/Marketing-Agency-Website-Refactoring/">
+            <h5 class="card-title">Portfolio 1</h5>
+            <p class="card-text">Marketing Agency Website Refactoring</p>
           </div>
         </div>
       </div>
@@ -75,9 +74,8 @@
         <div class="card">
           <img src="images/Project 2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Project 2</h5>
+            <h5 class="card-title">Portfolio 2</h5>
             <p class="card-text">Furniture Store Client Website</p>
-            <a href="https://github.com/HazimElHalabi/Online-Furniture-Store">
           </div>
         </div>
       </div>
@@ -88,9 +86,8 @@
         <div class="card">
           <img src="images/Project 3.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Project 3</h5>
+            <h5 class="card-title">Portfolio 3</h5>
             <p class="card-text">Jake's Eatery Client Website</p>
-            <a href="https://github.com/HazimElHalabi/Jake-s-Eatery">
           </div>
         </div>
       </div>
@@ -101,9 +98,8 @@
         <div class="card">
           <img src="images/Project 4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Project 4</h5>
+            <h5 class="card-title">Portfolio 4</h5>
             <p class="card-text">CSS Code Snippets</p>
-            <a href="https://github.com/HazimElHalabi/CSS-Code-Snippets">
           </div>
         </div>
       </div>
@@ -114,9 +110,8 @@
         <div class="card">
           <img src="images/Project 5.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Project 5</h5>
+            <h5 class="card-title">Portfolio 5</h5>
             <p class="card-text">Website Landing Page</p>
-            <a href="https://github.com/HazimElHalabi/Landing-Page">
           </div>
         </div>
       </div>
@@ -124,39 +119,51 @@
     </div>
   </div>
   <!-- End cards -->
+
   <!-- Content -->
-  <div class="container-fluid content">
+  <div class="container-fluid content" id="about">
     <h2 class="sectionHeading">About Me</h2>
 
     <!-- Row 1 -->
     <div class="row valueProp">
       <div class="sideAccent">
       </div>
-      <div class="imageContainer col-3">
-        <img src="images/Temp Image.jpg">
-      </div>
       <div class="text col-8">
-        <h3>We are always here to help!</h3>
+        <h3>Skills and Specialties</h3>
         <p>
-          A Front-end Web Development Graduate with great interpersonal skills.
-          Committed team member with proven ability to use initiative and solve problems.
-          Always eager to further develop my personal and professional knowledge and skills.
+          A recent Graduate with great interpersonal skills.
+        Committed team member with proven ability to use initiative and solve problems. 
+        Always eager to further develop my personal and professional knowledge and skills.
+        
+        Specialised in Front-end Web Development using  HTML5, CSS3, Javascript, jQuery, React.js, ES6, and Node. Also experienced in API's, UX and UI.
         </p>
-        <a href="#" class="btn btn-primary">Contact Us
+        <a href="contact" class="btn btn-primary">Collaborate
         </a>
       </div>
     </div>
     <!-- End row 1 -->
 
-
+    <!-- Row 2 -->
+    <div class="row valueProp">
+      <div class="sideAccent">
+      </div>
+      <div class="text col-8">
+        <h3>Resume</h3>
+        <p>
+          Please click on the link below to download a copy of my resume
+        </p>
+        <a href="#" class="btn btn-primary">Download Resume</a>
+      </div>
+    </div>
+    <!-- End row 2 -->
 
   </div>
   <!-- End content -->
 
   <!-- Footer -->
-  <footer class="emailContain">
+  <footer class="emailContain" id="contact">
     <form>
-      <h3 class="sectionHeading">Join Our Mailing List</h3>
+      <h3 class="sectionHeading">Get in Touch</h3>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -166,17 +173,18 @@
     </form>
   </footer>
   <!-- End footer -->
-  <!-- contact -->
-  <h3>Contact Me:</h3>
-  <section class="page-section contact" id="contact">
-    <ul>
-      <li><strong>Mobile:</strong><a href="#"> +44 70 00 000 000 </a></li>
-      <li><strong>Email:</strong><a href="https://www.live.co.uk"> testemail@live.co.uk </a></li>
-      <li><strong>Github:</strong><a href="https://github.com/HazimElHalabi"> HazimElHalabi </a></li>
-      <li><strong>Website:</strong><a href="#"> Coming Soon </a></li>
-    </ul>
-  </section>
-  </main>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
