@@ -74,18 +74,12 @@ p {
 .sectionHeading {
   text-align: center;
 }
-.showsNear  {
-  padding: 0px 30px 30px 30px;
-}
 .cardContainer {
   text-align: center;
 }
 
 /* Content */
-.sideAccent {
-  background: #007bff;
-  width: 15px;
-}
+
 .imageContainer img {
   width: 100%;
 }
@@ -97,34 +91,15 @@ p {
   height: 250px;
   border: 5px solid var(--border);
 }
-.valueProp {
-  margin-top: 15px;
-  margin-bottom: 15px;
+.card-body {
+  border: 5px solid var(--border);
 }
-
-/* Footer */
-.emailContain {
-  background: url(../images/Hero\ Tag.jpg);
-  background-size: cover;
+.valueProp {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 400px;
 }
 
-/* Footer form */
-form {
-  width: 500px;
-  margin: 35px;
-  padding: 45px;
-  border: 1px solid #F2F2F2;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
-  background-color: white;
-}
 
 /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
 .cardContainer {
@@ -132,4 +107,38 @@ form {
 }
 .card {
   margin: 0 auto;
+}
+footer {
+  background-image: url(../images/Hero\ Tag.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(65vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+li {
+  color: white;
+  display: inline-block;
+  padding: 5px;
+}
+a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+a:hover {
+  display: inline-block;
+  background-color: rgb(123, 157, 175);
+  padding: 2px;
+  text-align: center;
+  font-size: 20px;
+  margin: 0px;
+  transition: 0.3s;
 }
